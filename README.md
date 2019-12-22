@@ -16,11 +16,16 @@ positional arguments:
 optional arguments:
   -h, --help  show this help message and exit
   --mixed
-```
+
 If --mixed is used full must be in next format:
 word_1 hypernym_1 hypernym_1_1 hypernym_1_2
 word_2 hypernym_2 hypernym_2_1
 ...
+```
+
+example with mixed:
+
+python evaluate.py test_examples/test_true_mix.tsv test_examples/test_true_direct.tsv test_examples/test_pred_mix.tsv --mixed 
 
 #### Links to additional data:
 
