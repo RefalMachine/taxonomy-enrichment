@@ -6,15 +6,21 @@ Useful materials for participants of the Dialogue 2020 shared task on taxonomy e
 
 #### Evaluation script:
 ```
-usage: evaluate.py [-h] reference_file.tsv predicted_file.tsv
+usage: evaluate.py [-h] [--mixed] full direct predicted
 
 positional arguments:
-  reference
+  full
+  direct
   predicted
 
 optional arguments:
   -h, --help  show this help message and exit
+  --mixed
 ```
+If --mixed is used full must be in next format:
+word_1 hypernym_1 hypernym_1_1 hypernym_1_2
+word_2 hypernym_2 hypernym_2_1
+...
 
 #### Links to additional data:
 
